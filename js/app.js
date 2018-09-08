@@ -85,8 +85,8 @@ jenHi.innerHTML="Jenn Hikichi";
 var myBlock=document.getElementsByClassName("block3 col-sm-4");
 myBlock[2].appendChild(jenHi);
 
-var myPic = document.getElementsByTagName("img");
-myPic[7].innerHTML = "https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTYvMDYvMTQvMjAvNDgvMzQvMTM3L2NocmFjdGVyX2hlbGxvX2tpdHR5LmpwZyJdXQ/chracter-hello-kitty.jpg?sha=f5e7c272d3fc6e78";
+var myPic = document.getElementsByTagName("img")[8];
+myPic.src = "https://sanrio-production-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTYvMDYvMTQvMjAvNDgvMzQvMTM3L2NocmFjdGVyX2hlbGxvX2tpdHR5LmpwZyJdXQ/chracter-hello-kitty.jpg?sha=f5e7c272d3fc6e78";
 
 
 var myPosition = document.createElement("div");
@@ -104,5 +104,3 @@ myBio.id="bio";
 myBio.innerHTML="The 3 c's Cfamily, coffee, coding";
 myBlock[2].appendChild(myBio);
 
-var myPic = document.getElementsByTagName("img");
-myPic[7].src = "https://www.facebook.com/photo.php?fbid=10204716757978930&l=d402546555" 
